@@ -115,7 +115,6 @@ jobs:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-
-
 ```
 
+You can take a look at [the sample project sources](https://github.com/tabakerov/SampleDockerizedBuildStudy)
